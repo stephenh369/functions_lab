@@ -32,10 +32,20 @@ end
 
 def number_to_full_month_name(num)
    if num == 1
-   return p "January"
+        return "January"
    elsif num == 3
-   return p "March"
+        return "March"
    else num == 9
-   return p "September"
+        return "September"
    end
+end
+
+def number_to_short_month_name(num)
+    if num == 1
+        return "Jan"
+    elsif num == 4
+        return "Apr"
+    else num == 10
+        return "Oct"
+    end
 end
